@@ -10,19 +10,19 @@ img {
 }
 
 body {
-  background-color: #ebeb5f;
+  background-color: #cfcfea;
 }
 
 a {
   text-decoration: none;
   font-family: "Raleway", sans-serif;
 
-  color: #41463d;
+  color: #2a2c24;
 
   font-size: 25px;
 }
 a:hover {
-  color: #4fb286;
+  color: #330036;
   font-weight: 600;
 }
 

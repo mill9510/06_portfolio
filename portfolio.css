@@ -19,7 +19,7 @@ main {
   height: 200px;
   border: solid;
   border-radius: 50%;
-  border-color: rgb(31, 180, 244);
+  border-color: #e2eb98;
   font-size: 1.2rem;
   font-family: "Raleway", sans-serif;
   text-align: center;
@@ -63,16 +63,13 @@ a {
 }
 
 a:hover {
-  color: rgb(224, 139, 241);
-  font-size: 2rem;
+  font-weight: 600;
   text-decoration: none;
-  font-family: monospace;
   text-align: center;
 }
 
 .kategori:hover {
-  box-shadow: rgb(236, 136, 239);
-  border-color: rgb(245, 176, 215);
+  border-color: #bad9a2;
   animation: float 1.2s ease-in-out infinite;
 }
 
