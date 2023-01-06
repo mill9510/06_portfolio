@@ -1,0 +1,98 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+img {
+  vertical-align: middle;
+  width: 100%;
+  height: auto;
+}
+
+main {
+  max-width: 1200px;
+  margin-inline: auto;
+}
+
+.kategori {
+  width: 200px;
+  height: 200px;
+  border: solid;
+  border-radius: 50%;
+  border-color: rgb(31, 180, 244);
+  font-size: 1.2rem;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  padding-top: 190px;
+  background-color: #e6e6e6;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.kategoritxt {
+  margin-top: 10px;
+}
+
+.kategori1 {
+  background-image: url("../06_portfolioeksamen/kategori_imgs/emnesite_forside\ \(1\)-kopi.jpg");
+  background-size: cover;
+}
+.kategori2 {
+  background-image: url("../06_portfolioeksamen/kategori_imgs/Moodboard-kopi.png");
+  background-size: cover;
+}
+.kategori3 {
+  background-image: url("../06_portfolioeksamen/kategori_imgs/forside_2-kopi.svg");
+  background-size: cover;
+}
+.kategori4 {
+  background-image: url("../");
+  background-size: cover;
+}
+.kategori5 {
+  background-image: url("../");
+  background-size: cover;
+}
+
+a {
+  color: black;
+  font-size: 2rem;
+  text-decoration: none;
+  font-family: monospace;
+  text-align: center;
+}
+
+a:hover {
+  color: rgb(224, 139, 241);
+  font-size: 2rem;
+  text-decoration: none;
+  font-family: monospace;
+  text-align: center;
+}
+
+.kategori:hover {
+  box-shadow: rgb(236, 136, 239);
+  border-color: rgb(245, 176, 215);
+  animation: float 1.2s ease-in-out infinite;
+}
+
+@media (min-width: 700px) {
+  .grid_1_1_1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 70px;
+  }
+}
+
+@keyframes float {
+  0% {
+    transform: translatey(0px);
+  }
+  50% {
+    transform: translatey(2px);
+  }
+  100% {
+    transform: translatey(0px);
+  }
+}
