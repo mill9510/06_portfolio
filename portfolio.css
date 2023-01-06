@@ -21,7 +21,7 @@ main {
   border-radius: 50%;
   border-color: rgb(31, 180, 244);
   font-size: 1.2rem;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Raleway", sans-serif;
   text-align: center;
   padding-top: 190px;
   background-color: #e6e6e6;
@@ -58,7 +58,7 @@ a {
   color: black;
   font-size: 2rem;
   text-decoration: none;
-  font-family: monospace;
+
   text-align: center;
 }
 
