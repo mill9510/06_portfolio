@@ -41,3 +41,10 @@ header nav ul {
   text-align: right;
   list-style-type: none;
 }
+
+footer {
+  margin-right: 50px;
+  font-family: "Raleway", sans-serif;
+  display: flex;
+  justify-content: end;
+}
