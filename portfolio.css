@@ -9,11 +9,6 @@ img {
   height: auto;
 }
 
-main {
-  max-width: 1200px;
-  margin-inline: auto;
-}
-
 .h1_portfolio {
   font-family: "Merriweather Sans", sans-serif;
   font-size: 60px;

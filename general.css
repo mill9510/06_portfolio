@@ -54,3 +54,36 @@ footer {
   display: flex;
   justify-content: end;
 }
+
+h1 {
+  font-family: "Merriweather Sans", sans-serif;
+  font-size: 60px;
+  color: #330036;
+  vertical-align: middle;
+  width: 100%;
+  height: auto;
+  margin-bottom: 40px;
+}
+
+.logo {
+  border: #3f3244;
+  padding: 5px;
+  border-radius: 50%;
+  border-style: dashed;
+  background-color: #e6efe900;
+  color: #3f3244;
+  padding-top: 15px;
+}
+
+.logotxt {
+  color: #55251d;
+  text-decoration: none;
+  font-family: "Raleway", sans-serif;
+  font-size: 20px;
+}
+
+.logo:hover {
+  border: solid;
+}
+
+/*********** mobil visning **********/
