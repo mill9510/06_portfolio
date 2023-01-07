@@ -1,0 +1,14 @@
+.grid_1-2 {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+}
+
+.forside_h1 {
+  transform: rotate(-90deg);
+  font-family: "Inknut Antiqua", serif;
+  font-size: 40px;
+  color: #330036;
+  vertical-align: middle;
+  width: 100%;
+  height: auto;
+}
