@@ -44,11 +44,11 @@ img {
 }
 
 .kategori1 {
-  background-image: url("../06_portfolioeksamen/kategori_imgs/emnesite_forside\ \(1\)-kopi.jpg");
+  background-image: url("imgs/02.webp");
   background-size: cover;
 }
 .kategori2 {
-  background-image: url("imgs/02.webp");
+  background-image: url("imgs/03.webp");
   background-size: auto;
 }
 .kategori3 {
