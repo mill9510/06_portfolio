@@ -6,7 +6,7 @@
 .forside_h1 {
   transform: rotate(-90deg);
   font-family: "Merriweather Sans", sans-serif;
-  font-size: 60px;
+  font-size: 90px;
   color: #330036;
   vertical-align: middle;
   width: 100%;
@@ -15,5 +15,5 @@
 
 .forside_img {
   padding: 40px;
-  border: solid 3rem rgb(224, 226, 163);
+  border: solid 2rem rgb(224, 226, 163);
 }

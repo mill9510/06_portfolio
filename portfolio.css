@@ -14,6 +14,16 @@ main {
   margin-inline: auto;
 }
 
+.h1_portfolio {
+  font-family: "Merriweather Sans", sans-serif;
+  font-size: 60px;
+  color: #330036;
+  vertical-align: middle;
+  width: 100%;
+  height: auto;
+  margin-bottom: 40px;
+}
+
 .kategori {
   width: 200px;
   height: 200px;
@@ -31,6 +41,11 @@ main {
 
 .kategoritxt {
   margin-top: 10px;
+  color: black;
+  font-size: 1.5rem;
+  text-decoration: none;
+
+  text-align: center;
 }
 
 .kategori1 {
@@ -54,18 +69,11 @@ main {
   background-size: cover;
 }
 
-a {
-  color: black;
-  font-size: 2rem;
-  text-decoration: none;
-
-  text-align: center;
-}
-
-a:hover {
+.kategoritxt:hover {
   font-weight: 600;
   text-decoration: none;
   text-align: center;
+  color: aqua;
 }
 
 .kategori:hover {
