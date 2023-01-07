@@ -60,8 +60,8 @@ img {
   background-size: cover;
 }
 .kategori5 {
-  background-image: url("../");
-  background-size: cover;
+  background-image: url("imgs/06.webp");
+  background-size: auto;
 }
 
 .kategoritxt:hover {
