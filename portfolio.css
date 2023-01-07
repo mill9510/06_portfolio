@@ -48,8 +48,8 @@ img {
   background-size: cover;
 }
 .kategori2 {
-  background-image: url("../06_portfolioeksamen/kategori_imgs/Moodboard-kopi.png");
-  background-size: cover;
+  background-image: url("imgs/02.webp");
+  background-size: auto;
 }
 .kategori3 {
   background-image: url("../06_portfolioeksamen/kategori_imgs/forside_2-kopi.svg");
