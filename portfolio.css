@@ -24,7 +24,7 @@ img {
   height: 200px;
   border: solid;
   border-radius: 50%;
-  border-color: #e2eb98;
+  border-color: #2a2c24;
   font-size: 1.2rem;
   font-family: "Raleway", sans-serif;
   text-align: center;
@@ -68,11 +68,12 @@ img {
   font-weight: 600;
   text-decoration: none;
   text-align: center;
-  color: aqua;
+  color: 2A2C24;
 }
 
 .kategori:hover {
-  border-color: #bad9a2;
+  border-color: #2a2c24;
+  background-color: #2a2c24;
   animation: float 1.2s ease-in-out infinite;
 }
 
@@ -94,5 +95,11 @@ img {
   }
   100% {
     transform: translatey(0px);
+  }
+}
+
+@media (max-width: 699px) {
+  .kategori {
+    margin-bottom: 80px;
   }
 }

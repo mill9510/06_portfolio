@@ -17,3 +17,9 @@
   padding: 40px;
   border: solid 2rem rgb(224, 226, 163);
 }
+
+@media (max-width: 699px) {
+  .forside_h1 {
+    font-size: 40px;
+  }
+}
