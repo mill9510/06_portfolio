@@ -45,15 +45,15 @@ img {
 
 .kategori1 {
   background-image: url("imgs/02.webp");
-  background-size: cover;
+  background-size: auto;
 }
 .kategori2 {
   background-image: url("imgs/03.webp");
   background-size: auto;
 }
 .kategori3 {
-  background-image: url("../06_portfolioeksamen/kategori_imgs/forside_2-kopi.svg");
-  background-size: cover;
+  background-image: url("imgs/04.webp");
+  background-size: auto;
 }
 .kategori4 {
   background-image: url("../");
