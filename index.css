@@ -1,14 +1,19 @@
 .grid_1-2 {
   display: grid;
-  grid-template-columns: 1fr 2fr;
+  grid-template-columns: 1fr 1fr;
 }
 
 .forside_h1 {
   transform: rotate(-90deg);
-  font-family: "Inknut Antiqua", serif;
-  font-size: 40px;
+  font-family: "Merriweather Sans", sans-serif;
+  font-size: 60px;
   color: #330036;
   vertical-align: middle;
   width: 100%;
   height: auto;
+}
+
+.forside_img {
+  padding: 40px;
+  border: solid 3rem rgb(224, 226, 163);
 }

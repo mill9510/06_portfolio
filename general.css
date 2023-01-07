@@ -13,6 +13,11 @@ body {
   background-color: #cfcfea;
 }
 
+main {
+  max-width: 1000px;
+  margin-inline: auto;
+}
+
 a {
   text-decoration: none;
   font-family: "Raleway", sans-serif;
@@ -44,6 +49,7 @@ header nav ul {
 
 footer {
   margin-right: 50px;
+  margin-top: 60px;
   font-family: "Raleway", sans-serif;
   display: flex;
   justify-content: end;
