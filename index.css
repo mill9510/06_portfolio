@@ -1,25 +1,33 @@
-.grid_1-2 {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-}
-
 .forside_h1 {
   transform: rotate(-90deg);
   font-family: "Merriweather Sans", sans-serif;
   font-size: 90px;
-  color: #330036;
+  color: #e2eb98;
   vertical-align: middle;
   width: 100%;
   height: auto;
 }
 
 .forside_img {
-  padding: 40px;
-  border: solid 2rem rgb(224, 226, 163);
+  width: 50%;
 }
 
 @media (max-width: 699px) {
   .forside_h1 {
     font-size: 40px;
   }
+}
+
+.container {
+  text-align: center;
+}
+
+.container {
+  display: grid;
+  place-items: center;
+}
+
+.forside_img,
+.forside_h1 {
+  grid-area: 1 / 1;
 }
