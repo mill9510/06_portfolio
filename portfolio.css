@@ -24,12 +24,12 @@ img {
   height: 200px;
   border: solid;
   border-radius: 50%;
-  border-color: #2a2c24;
+  border-color: #cfcfea;
   font-size: 1.2rem;
   font-family: "Raleway", sans-serif;
   text-align: center;
   padding-top: 190px;
-  background-color: #e6e6e6;
+  background-color: #cfcfea;
   margin-left: auto;
   margin-right: auto;
 }
@@ -72,8 +72,8 @@ img {
 }
 
 .kategori:hover {
-  border-color: #2a2c24;
-  background-color: #2a2c24;
+  border-color: #e2eb98;
+  background-color: #e2eb98;
   animation: float 1.2s ease-in-out infinite;
 }
 
