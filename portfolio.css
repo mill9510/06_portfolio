@@ -9,15 +9,7 @@ img {
   height: auto;
 }
 
-.h1_portfolio {
-  font-family: "Merriweather Sans", sans-serif;
-  font-size: 60px;
-  color: #330036;
-  vertical-align: middle;
-  width: 100%;
-  height: auto;
-  margin-bottom: 40px;
-}
+/********* ramme til kategori **********/
 
 .kategori {
   width: 200px;
@@ -34,6 +26,8 @@ img {
   margin-right: auto;
 }
 
+/*********** tekst til kategori *********/
+
 .kategoritxt {
   margin-top: 10px;
   color: black;
@@ -42,6 +36,8 @@ img {
 
   text-align: center;
 }
+
+/************ kategori billeder **********/
 
 .kategori1 {
   background-image: url("imgs/02_ny.webp");
@@ -64,11 +60,12 @@ img {
   background-size: auto;
 }
 
+/********** kategori effekter ********/
+
 .kategoritxt:hover {
   font-weight: 600;
   text-decoration: none;
   text-align: center;
-  color: 2A2C24;
 }
 
 .kategori:hover {
@@ -91,6 +88,8 @@ img {
     gap: 70px;
   }
 }
+
+/************ mobile tilpasninger *********/
 
 @media (max-width: 699px) {
   .kategori {

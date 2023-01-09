@@ -18,6 +18,8 @@ main {
   margin-inline: auto;
 }
 
+/***************** menu og footer ************/
+
 a {
   text-decoration: none;
   font-family: "Raleway", sans-serif;
@@ -63,6 +65,8 @@ footer {
   justify-content: end;
 }
 
+/*********** fonte ************/
+
 h1 {
   font-family: "Merriweather Sans", sans-serif;
   font-size: 60px;
@@ -71,6 +75,8 @@ h1 {
   width: 100%;
   height: auto;
   margin-bottom: 40px;
+  overflow-wrap: break-word;
+  hyphens: auto;
 }
 
 h2 {
@@ -97,6 +103,8 @@ p {
   font-family: "Montserrat", sans-serif;
 }
 
+/********* logo indstillinger *********/
+
 .logo {
   border: #3f3244;
   padding: 5px;
@@ -119,11 +127,23 @@ p {
   border: solid;
 }
 
-.grid_1-1_x2 {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
+@media (min-width: 699px) {
+  .grid_1-1_x2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
 }
 
+/************ mobil tilpasning *************/
+
+@media (max-width: 699px) {
+  main {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+}
+
+/************* knap til website link **********/
 figure {
   margin-top: 50px;
   margin-bottom: 120px;
