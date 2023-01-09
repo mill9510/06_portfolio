@@ -76,12 +76,6 @@ h2 {
   margin-bottom: 10px;
 }
 
-h2:hover {
-  color: #e2eb98;
-  font-weight: 600;
-  font-family: "Merriweather Sans", sans-serif;
-}
-
 h3 {
   text-decoration: none;
   font-family: "Raleway", sans-serif;
