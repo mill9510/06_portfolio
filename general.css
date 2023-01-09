@@ -87,6 +87,8 @@ h2 {
 
   font-size: 25px;
   margin-bottom: 10px;
+  overflow-wrap: break-word;
+  hyphens: auto;
 }
 
 h3 {
@@ -96,11 +98,16 @@ h3 {
   color: #2a2c24;
 
   font-size: 25px;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
+  margin-top: 70px;
+  overflow-wrap: break-word;
+  hyphens: auto;
 }
 
 p {
   font-family: "Montserrat", sans-serif;
+  overflow-wrap: break-word;
+  hyphens: auto;
 }
 
 /********* logo indstillinger *********/
@@ -164,7 +171,7 @@ button {
   background: #cfcfea;
   text-decoration: none;
   font-family: "Raleway", sans-serif;
-  color: #2a2c24;
+  color: #3f3244;
   font-size: 25px;
   border: none;
   border-radius: 50%;
