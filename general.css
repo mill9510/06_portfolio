@@ -82,6 +82,16 @@ h2:hover {
   font-family: "Merriweather Sans", sans-serif;
 }
 
+h3 {
+  text-decoration: none;
+  font-family: "Raleway", sans-serif;
+
+  color: #2a2c24;
+
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+
 .logo {
   border: #3f3244;
   padding: 5px;
@@ -108,4 +118,44 @@ h2:hover {
   grid-template-columns: 1fr 1fr;
 }
 
-/*********** mobil visning **********/
+figure {
+  margin-top: 50px;
+  margin-bottom: 120px;
+}
+
+.visit_site {
+  display: grid;
+  justify-items: center;
+  align-items: center;
+}
+.visit_site img,
+.link,
+button {
+  grid-area: 1/1;
+}
+
+.to_site_button {
+  background: #cfcfea;
+  text-decoration: none;
+  font-family: "Raleway", sans-serif;
+  color: #2a2c24;
+  font-size: 25px;
+  border: none;
+  border-radius: 50%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  cursor: pointer;
+  transition: 0.3s;
+  align-content: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  place-items: center;
+  z-index: 10;
+}
+
+.to_site_button:hover {
+  color: #e2eb98;
+  font-weight: 600;
+  font-family: "Merriweather Sans", sans-serif;
+}
