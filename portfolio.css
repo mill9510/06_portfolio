@@ -74,7 +74,13 @@ img {
 .kategori:hover {
   border-color: #e2eb98;
   background-color: #e2eb98;
-  animation: float 1.2s ease-in-out infinite;
+  animation: zoom_in 1.5s forwards;
+}
+
+@keyframes zoom_in {
+  to {
+    transform: scale(110%, 110%);
+  }
 }
 
 @media (min-width: 700px) {
@@ -83,18 +89,6 @@ img {
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
     gap: 70px;
-  }
-}
-
-@keyframes float {
-  0% {
-    transform: translatey(0px);
-  }
-  50% {
-    transform: translatey(2px);
-  }
-  100% {
-    transform: translatey(0px);
   }
 }
 
