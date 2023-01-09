@@ -7,9 +7,17 @@ img {
   vertical-align: middle;
   width: 100%;
   height: auto;
+  margin-top: 25px;
 }
 
-.grid_1-1 {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
+@media (min-width: 699px) {
+  .grid_1-1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 70px;
+  }
+}
+p {
+  margin-bottom: 20px;
+  margin-right: 40px;
 }
