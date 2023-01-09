@@ -87,4 +87,9 @@ h1 {
   border: solid;
 }
 
+.grid_1-1_x2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
 /*********** mobil visning **********/
