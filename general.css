@@ -48,6 +48,13 @@ header nav ul {
   list-style-type: none;
 }
 
+nav {
+  --less-than: 600;
+  --burger-lines: #e2eb98;
+  --burger-border: none;
+  justify-content: center;
+}
+
 footer {
   margin-right: 50px;
   margin-top: 60px;
@@ -98,6 +105,7 @@ p {
   background-color: #e6efe900;
   color: #3f3244;
   padding-top: 15px;
+  padding-bottom: 15px;
 }
 
 .logotxt {
