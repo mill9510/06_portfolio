@@ -32,31 +32,24 @@ a:hover {
   font-family: "Merriweather Sans", sans-serif;
 }
 
-@media (min-width: 699px) {
+@media (min-width: 700px) {
   header {
     position: sticky;
   }
-
-  header {
-    top: 10px;
-    margin: 20px;
-    display: flex;
-    justify-content: space-between;
-  }
-
-  header nav ul {
-    display: block;
-    overflow-x: auto;
-    text-align: right;
-    list-style-type: none;
-  }
 }
-nav {
-  --less-than: 600;
-  --burger-lines: #e2eb98;
-  --burger-border: none;
+header {
+  top: 10px;
+
+  margin: 20px;
+
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
+}
+header nav ul {
+  display: block;
+  overflow-x: auto;
+  text-align: right;
+  list-style-type: none;
 }
 
 footer {
@@ -116,30 +109,6 @@ p {
   hyphens: auto;
 }
 
-/********* logo indstillinger *********/
-/*
-.logo {
-  border: #3f3244;
-  padding: 5px;
-  border-radius: 50%;
-  border-style: dashed;
-  background-color: #e6efe900;
-  color: #3f3244;
-  padding-top: 15px;
-  padding-bottom: 15px;
-}
-
-.logotxt {
-  color: #55251d;
-  text-decoration: none;
-  font-family: "Raleway", sans-serif;
-  font-size: 20px;
-}
-
-.logo:hover {
-  border: solid;
-}
-*/
 @media (min-width: 699px) {
   .grid_1-1_x2 {
     display: grid;
@@ -176,7 +145,6 @@ button {
 #button_stor {
   text-decoration: none;
   font-family: "Merriweather Sans", sans-serif;
-  color: #000000;
   font-size: 25px;
   border: none;
   border-radius: 50%;
@@ -206,42 +174,49 @@ button {
   background-image: url("imgs/website.webp");
   background-size: cover;
   opacity: 0.55;
+  color: #000000;
 }
 
 .button2 {
   background-image: url("imgs/emnesite.webp");
   background-size: cover;
   opacity: 0.55;
+  color: #000000;
 }
 
 .button3 {
   background-image: url("imgs/band_link.webp");
   background-size: cover;
   opacity: 0.55;
+  color: #000000;
 }
 
 .button4 {
   background-image: url("imgs/slides_link.webp");
   background-size: cover;
   opacity: 0.55;
+  color: #000000;
 }
 
 .button5 {
   background-image: url("imgs/forside-kopi.svg");
   background-size: cover;
   opacity: 0.55;
+  color: #000000;
 }
 
 .button6 {
   background-image: url("imgs/haender-kopi.webp");
   background-size: cover;
   opacity: 0.55;
+  color: #ffffff;
 }
 
 .button7 {
   background-image: url("imgs/forside_img-kopi.webp");
   background-size: cover;
   opacity: 0.55;
+  color: #ffffff;
 }
 
 .button8 {
@@ -249,6 +224,7 @@ button {
   background-size: cover;
   background-color: #cfcfea;
   opacity: 0.55;
+  color: #000000;
 }
 
 .dok_link {
