@@ -167,16 +167,19 @@ button {
   grid-area: 1/1;
 }
 
-.to_site_button {
-  background: #cfcfea;
+button {
+  background-image: url("imgs/website.webp");
+  background-size: cover;
   text-decoration: none;
-  font-family: "Raleway", sans-serif;
-  color: #3f3244;
+  font-family: "Merriweather Sans", sans-serif;
+  color: #ffffff;
   font-size: 25px;
   border: none;
   border-radius: 50%;
-  padding-top: 50px;
-  padding-bottom: 50px;
+  padding-top: 140px;
+  padding-bottom: 140px;
+  padding-left: 80px;
+  padding-right: 80px;
   cursor: pointer;
   transition: 0.3s;
   align-content: center;
@@ -187,10 +190,47 @@ button {
   z-index: 10;
 }
 
-.to_site_button:hover {
-  color: #e2eb98;
+button:hover {
   font-weight: 600;
-  font-family: "Merriweather Sans", sans-serif;
+  padding-top: 170px;
+  padding-bottom: 170px;
+  padding-left: 110px;
+  padding-right: 110px;
+}
+
+.button1 {
+  background-image: url("imgs/website.webp");
+  background-size: cover;
+}
+
+.button2 {
+  background-image: url("imgs/emnesite.webp");
+  background-size: cover;
+}
+
+.button3 {
+  background-image: url("imgs/prototype.webp");
+  background-size: cover;
+}
+
+.button4 {
+  background-image: url("imgs/pitch.webp");
+  background-size: cover;
+}
+
+.button5 {
+  background-image: url("imgs/animation.webp");
+  background-size: cover;
+}
+
+.button6 {
+  background-image: url("imgs/haender-kopi.webp");
+  background-size: cover;
+}
+
+.button7 {
+  background-image: url("imgs/forside_img-kopi.webp");
+  background-size: cover;
 }
 
 .proces_knap {
