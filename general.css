@@ -192,3 +192,17 @@ button {
   font-weight: 600;
   font-family: "Merriweather Sans", sans-serif;
 }
+
+/*********** justeringer om mig side ********/
+
+.selvportraet {
+  width: 70%;
+}
+
+.cv {
+  margin-top: 110px;
+}
+
+.mig {
+  margin-bottom: 60px;
+}
