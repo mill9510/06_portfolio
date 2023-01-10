@@ -23,26 +23,28 @@ main {
 a {
   text-decoration: none;
   font-family: "Raleway", sans-serif;
-
   color: #2a2c24;
-
   font-size: 25px;
+  margin-top: 10px;
 }
 a:hover {
   color: #e2eb98;
-  font-weight: 600;
   font-family: "Merriweather Sans", sans-serif;
 }
 
+@media (min-width: 699px) {
+  header {
+    position: sticky;
+  }
+}
+
 header {
-  position: sticky;
   top: 10px;
-
   margin: 20px;
-
   display: flex;
   justify-content: space-between;
 }
+
 header nav ul {
   display: block;
   overflow-x: auto;
@@ -54,6 +56,7 @@ nav {
   --less-than: 600;
   --burger-lines: #e2eb98;
   --burger-border: none;
+  display: flex;
   justify-content: center;
 }
 
@@ -188,6 +191,10 @@ button {
   z-index: 10;
 }
 
+.farve2 {
+  color: #ffffff;
+}
+
 #farve2 {
   color: #ffffff;
 }
@@ -272,4 +279,10 @@ button:hover {
 
 .mig {
   margin-bottom: 60px;
+}
+
+@media (max-width: 699px) {
+  h1 {
+    font-size: 20px;
+  }
 }
