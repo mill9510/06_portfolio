@@ -40,23 +40,28 @@ img {
 /************ kategori billeder **********/
 
 .kategori1 {
-  background-image: url("imgs/02_ny.webp");
+  background-color: #2f1a53;
   background-size: auto;
 }
 .kategori2 {
-  background-image: url("imgs/03_ny.webp");
+  background-color: #3cae88;
   background-size: auto;
 }
 .kategori3 {
-  background-image: url("imgs/04_ny.webp");
+  background-color: #a4d8f5;
   background-size: auto;
 }
 .kategori4 {
-  background-image: url("imgs/05_ny.webp");
+  background-color: #e7923d;
   background-size: auto;
 }
 .kategori5 {
-  background-image: url("imgs/06_ny.webp");
+  background-color: #511510;
+  background-size: auto;
+}
+
+.kategori6 {
+  background-color: #c66ba3;
   background-size: auto;
 }
 
