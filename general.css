@@ -193,6 +193,32 @@ button {
   font-family: "Merriweather Sans", sans-serif;
 }
 
+.proces_knap {
+  background: #2f1a53;
+  text-decoration: none;
+  font-family: "Raleway", sans-serif;
+  color: #cfcfea;
+  font-size: 25px;
+  border: none;
+  border-radius: 50%;
+  padding-top: 125px;
+  padding-bottom: 125px;
+  cursor: pointer;
+  transition: 0.3s;
+  align-content: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  place-items: center;
+  z-index: 10;
+}
+
+.proces_knap:hover {
+  color: #e2eb98;
+  font-size: 22px;
+  font-family: "Merriweather Sans", sans-serif;
+}
+
 /*********** justeringer om mig side ********/
 
 .selvportraet {
