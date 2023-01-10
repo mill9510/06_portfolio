@@ -36,22 +36,21 @@ a:hover {
   header {
     position: sticky;
   }
-}
 
-header {
-  top: 10px;
-  margin: 20px;
-  display: flex;
-  justify-content: space-between;
-}
+  header {
+    top: 10px;
+    margin: 20px;
+    display: flex;
+    justify-content: space-between;
+  }
 
-header nav ul {
-  display: block;
-  overflow-x: auto;
-  text-align: right;
-  list-style-type: none;
+  header nav ul {
+    display: block;
+    overflow-x: auto;
+    text-align: right;
+    list-style-type: none;
+  }
 }
-
 nav {
   --less-than: 600;
   --burger-lines: #e2eb98;
@@ -66,6 +65,10 @@ footer {
   font-family: "Raleway", sans-serif;
   display: flex;
   justify-content: end;
+}
+
+.logo {
+  max-width: 20%;
 }
 
 /*********** fonte ************/
@@ -114,7 +117,7 @@ p {
 }
 
 /********* logo indstillinger *********/
-
+/*
 .logo {
   border: #3f3244;
   padding: 5px;
@@ -136,7 +139,7 @@ p {
 .logo:hover {
   border: solid;
 }
-
+*/
 @media (min-width: 699px) {
   .grid_1-1_x2 {
     display: grid;
@@ -170,7 +173,7 @@ button {
   grid-area: 1/1;
 }
 
-button {
+#button_stor {
   text-decoration: none;
   font-family: "Merriweather Sans", sans-serif;
   color: #000000;
@@ -191,15 +194,7 @@ button {
   z-index: 10;
 }
 
-.farve2 {
-  color: #ffffff;
-}
-
-#farve2 {
-  color: #ffffff;
-}
-
-button:hover {
+#button_stor:hover {
   font-weight: 600;
   padding-top: 170px;
   padding-bottom: 170px;

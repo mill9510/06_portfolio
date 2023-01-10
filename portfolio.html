@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="general.css" />
     <link rel="stylesheet" href="portfolio.css" />
+    <link rel="stylesheet" href="burger.css" />
+
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap" rel="stylesheet" />
     <link href="https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@800&display=swap" rel="stylesheet" />
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet" />
@@ -15,11 +17,12 @@
     <title>Om mig</title>
   </head>
   <body>
-    <header>
+    <header class="banner">
       <div class="logo">
-        <a class="logotxt" href="index.html">MBH</a>
+        <a href="index.html"> <img src="svg/link_hover.svg" alt="logo" /></a>
       </div>
-      <nav>
+      <nav class="main-menu">
+        <button class="toggle-btn">Menu</button>
         <ul>
           <li><a href="portfolio.html">Portfolio</a></li>
           <li><a href="om.html">Om mig</a></li>
@@ -69,6 +72,6 @@
     <footer>
       <p>Af Mille Henriksen</p>
     </footer>
-    <script src="menu.js"></script>
+    <script src="burger.js"></script>
   </body>
 </html>

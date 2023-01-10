@@ -1,0 +1,56 @@
+.banner {
+  padding: 2rem;
+
+  /*Får elementerne til at stå ved siden af hinanden og bruger justify-content til at skubbe dem væk fra hinanden */
+  display: flex;
+  flex-flow: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px 40px;
+}
+
+/*Får elementerne til at stå ved siden af hinanden og bruger justify-content til at skubbe dem væk fra hinanden */
+
+.main-menu ul {
+  list-style: none;
+  padding: 0;
+
+  /* 2. Få elementerne til at stå ved siden af hinanden */
+  display: flex;
+  gap: 1rem;
+}
+
+/* burgermenu */
+.toggle-btn {
+  background: transparent;
+  border: none;
+  min-width: 44px;
+  min-height: 44px;
+  font-size: 1.1rem;
+  cursor: pointer;
+  display: none;
+  font-family: "Raleway", sans-serif;
+  color: #2a2c24;
+}
+
+@media (max-width: 600px) {
+  .toggle-btn {
+    display: block;
+  }
+
+  .main-menu.shown {
+    display: contents;
+  }
+
+  .main-menu ul {
+    display: none;
+  }
+
+  .main-menu.shown ul {
+    border-top: 1px solid #2a2c24;
+    padding-top: 1rem;
+    display: flex;
+    flex-flow: column;
+    flex-basis: 100%;
+  }
+}
