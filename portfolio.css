@@ -81,7 +81,7 @@ img {
 
 @keyframes zoom_in {
   to {
-    transform: scale(110%, 110%);
+    transform: scale(1.1, 1.1);
   }
 }
 

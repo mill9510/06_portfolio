@@ -142,7 +142,7 @@ button {
   grid-area: 1/1;
 }
 
-#button_stor {
+.button_stor {
   text-decoration: none;
   font-family: "Merriweather Sans", sans-serif;
   font-size: 25px;
@@ -162,7 +162,7 @@ button {
   z-index: 10;
 }
 
-#button_stor:hover {
+.button_stor:hover {
   font-weight: 600;
   padding-top: 170px;
   padding-bottom: 170px;
@@ -170,56 +170,56 @@ button {
   padding-right: 110px;
 }
 
-.button1 {
+#button1 {
   background-image: url("imgs/website.webp");
   background-size: cover;
   opacity: 0.55;
   color: #000000;
 }
 
-.button2 {
+#button2 {
   background-image: url("imgs/emnesite.webp");
   background-size: cover;
   opacity: 0.55;
   color: #000000;
 }
 
-.button3 {
+#button3 {
   background-image: url("imgs/band_link.webp");
   background-size: cover;
   opacity: 0.55;
   color: #000000;
 }
 
-.button4 {
+#button4 {
   background-image: url("imgs/slides_link.webp");
   background-size: cover;
   opacity: 0.55;
   color: #000000;
 }
 
-.button5 {
+#button5 {
   background-image: url("imgs/forside-kopi.svg");
   background-size: cover;
   opacity: 0.55;
   color: #000000;
 }
 
-.button6 {
+#button6 {
   background-image: url("imgs/haender-kopi.webp");
   background-size: cover;
   opacity: 0.55;
   color: #ffffff;
 }
 
-.button7 {
+#button7 {
   background-image: url("imgs/forside_img-kopi.webp");
   background-size: cover;
   opacity: 0.55;
   color: #ffffff;
 }
 
-.button8 {
+#button8 {
   background-image: url("imgs/forside_tilpasset.webp");
   background-size: cover;
   background-color: #cfcfea;
